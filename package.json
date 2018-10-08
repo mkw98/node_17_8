@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./js/script.js",
     "test": "npm-run-all test:html",
     "test:html": "globstar nu-html-checker *.html",
     "init-project": "npm install && npm-run-all init:*",
