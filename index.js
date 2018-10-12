@@ -16,7 +16,7 @@ server.on('request', function (request, response) {
     });
            	        
     } else {
-            fs.readFile('../images/404-error-page-not-found.jpg', function (err, data) {
+            fs.readFile('404-error-page-not-found.jpg', function (err, data) {
                 response.statusCode = 404;
                 response.write(data);
                 if(err) throw err;
